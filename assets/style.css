@@ -105,8 +105,9 @@ html, body {
 
 .step-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: calc(30px * var(--full-to-relative));
   width: 100%;
 }
 
@@ -135,6 +136,21 @@ html, body {
   width: 100%;
   object-fit: contain;
   object-position: center;
+}
+
+.step-coordinates {
+  display: flex;
+  flex-direction: column;
+  gap: calc(10px * var(--full-to-relative));
+  margin-top: calc(50px * var(--full-to-relative));
+}
+
+.step-coordinate {
+  font-family: "BrandonGrotesque-Medium";
+  font-weight: 500;
+  font-size: calc(48px * var(--full-to-relative));
+  color: var(--grey-15);
+  text-transform: uppercase;
 }
 
 .step-country {
