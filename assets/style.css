@@ -70,7 +70,7 @@ html, body {
   justify-content: center;
   width: calc(204px * var(--full-to-relative));
   height: calc(78px * var(--full-to-relative));
-  font-family: "BrandonGrotesque";
+  font-family: "BrandonGrotesque-Bold";
   font-weight: 500;
   font-size: calc(40px * var(--full-to-relative));
   color: white;
@@ -151,7 +151,7 @@ html, body {
 }
 
 .step-country-name {
-  font-family: "BrandonGrotesque";
+  font-family: "BrandonGrotesque-Bold";
   font-weight: 500;
   color: var(--dark-1);
   font-size: calc(69px * var(--full-to-relative));
@@ -160,7 +160,7 @@ html, body {
 }
 
 .step-title {
-  font-family: "BrandonGrotesque";
+  font-family: "BrandonGrotesque-Bold";
   font-weight: 500;
   color: var(--dark-1);
   font-size: calc(100px * var(--full-to-relative));
@@ -178,7 +178,7 @@ html, body {
   justify-content: space-between;
   width: 100%;
   margin-top: calc(100px * var(--full-to-relative));
-  font-family: "BrandonGrotesque";
+  font-family: "BrandonGrotesque-Bold";
   font-weight: 500;
 }
 
@@ -208,6 +208,7 @@ html, body {
   font-size: calc(35px * var(--full-to-relative));
   margin-top: calc(100px * var(--full-to-relative));
   white-space: pre-wrap;
+  font-family: "NotoSerif-Regular";
 }
 
 .photo-columns {
@@ -242,7 +243,7 @@ html, body {
   left: 50%;
   transform: translate(-50%, 0);
   font-size: 40px;
-  font-family: "BrandonGrotesque";
+  font-family: "BrandonGrotesque-Bold";
   font-weight: 500;
   color: red;
 }
